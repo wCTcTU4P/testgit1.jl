@@ -1,5 +1,8 @@
 module testgit1
-
-# Write your package code here.
-
+	using PrecompileTools, GLMakie, LinearAlgebra
+	export plotstuff, main, rotz!
+	include("testgitcode.jl")
+	@compile_workload begin
+		main()
+	end
 end
