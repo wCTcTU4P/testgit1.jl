@@ -20,7 +20,7 @@ function plotstuff(xycoord::Matrix{Float64})
 end
 
 function main()
-    basecoord = rand(2, 6)
+    basecoord = rand(2, 7)
     plotstuff(basecoord)
 end
 
