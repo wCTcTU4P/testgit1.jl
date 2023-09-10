@@ -1,0 +1,13 @@
+name = "testgit1"
+uuid = "18f1d654-8227-4fa7-8d32-f89b028c14cd"
+authors = ["wCTcTU4P <zWufd57s5cSzjEg90679df8hRNuq@protonmail.com> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
