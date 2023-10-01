@@ -22,6 +22,7 @@ end
 function main()
     basecoord = rand(2, 9)
     plotstuff(basecoord)
+    return 1
 end
 
 main()
