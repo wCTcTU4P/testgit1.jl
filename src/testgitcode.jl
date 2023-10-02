@@ -16,13 +16,14 @@ function plotstuff(xycoord::Matrix{Float64})
         xycoordtemp = rotz!(baserot, rots[i]) * xycoord
         lines!(xycoordtemp)
     end
-    display(fig)
+    # display(fig)
+    return fig
 end
 
 function main()
     basecoord = rand(2, 9)
-    plotstuff(basecoord)
-    return 1
+    fig = plotstuff(basecoord)
+    return fig
 end
 
 main()
